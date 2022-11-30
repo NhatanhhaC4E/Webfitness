@@ -1,0 +1,63 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+    --green: #AED96D;
+    --gray: #61615e;
+    --black: #000;
+    --white: #fff;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizespeed;
+}
+
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+img[src*="5ff15176379aaba68d10afdcb236"] {
+    position: absolute;
+    z-index: 5;
+    right: -20vw;
+    top: -5vh;
+}
+
+img[src*="22d0/9d66213bfd99e2da1e2314"] {
+    position: absolute;
+    z-index: 5;
+    right: -9vw;
+    top: 11vh;
+    filter: drop-shadow(0 1.2rem 0.75rem #333);
+
+}
+
+
+img[src*="fd6d5b0c0a3d6cb8ab2448b8"] {
+    position: absolute;
+    z-index: 5;
+    right: -9vw;
+    top: 11vh;
+    filter: drop-shadow(0 1.2rem 0.75rem #333);
+}

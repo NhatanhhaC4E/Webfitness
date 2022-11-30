@@ -1,0 +1,38 @@
+.container {
+    // border: 2px solid red;
+    height: 100%;
+    width: 100%;
+}
+
+
+.Advertise {
+    margin-top: 4rem;
+    position: relative;
+    width: fit-content;
+    height: 72px;
+    background-color: #404040;
+    border-radius: 4rem;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color: var(--white);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 2;
+}
+
+.Advertise>span {
+
+    z-index: 3;
+}
+
+
+.animation {
+    position: absolute;
+    background-color: var(--green);
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 2;
+}
