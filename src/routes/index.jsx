@@ -3,6 +3,7 @@ import SignIn from "../pages/signIn/indexSignIn"
 import HomeLoggedIn from "../pages/homeLoggedIn/indexHomeLoggedIn"
 import Schedule from "../pages/Schedule/Schedule"
 import Register from "../pages/Register"
+import HomePageLayout from "../components/layouts/HomePageLayout"
 
 
 // Public Routes
@@ -13,6 +14,7 @@ const publicRoutes = [
         img: 'https://s3-alpha-sig.figma.com/img/bee2/b321/d01a5ff15176379aaba68d10afdcb236?Expires=1670803200&Signature=f27V1lEGcei3P7-V~DI3SYIXyx8HITdewf2FOs4LDTKKLSnZ3UNYA-SnPqDuAyWsRePDZI8bRjKXhU-upqnOC7DwVpPcG6Nkz0pHXLd7-C6N7HB2UgDoLKD-nk5zfaqcgmCh2~W43WHhiUNuXnuK6F9o-CC58Y6e6D8IMdCwsl5vqN-ySmFHuCNNwSV0H-l31xZNTmtxl9HwBeLz3w7fNnTCWSPuOlxEaFa58AvwQ-nWoOfsC0RxU05m5PtjvGjqv7vOLtZUfY29fyRT1CIMCPI7JEuOtQWfmVx8ruFNTkQOMeujt51NB0vTope9ci~HP2EZBFxJX2VDXA18galHlw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
         width: "497px",
         height: "745px",
+        layout: HomePageLayout
     },
     {
         path: '/register',

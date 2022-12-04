@@ -1,5 +1,6 @@
 .container {
     // border: 2px solid red;
+    height: 100%;
     width: 100%;
 }
 
@@ -21,7 +22,6 @@
 }
 
 .Advertise>span {
-
     z-index: 3;
 }
 
@@ -76,12 +76,12 @@
     font-size: 1rem;
 }
 
-.btn {
-    margin-top: 2rem;
+.extend {
+    color: var(--green);
+    font-size: 1rem;
+    margin-left: 1rem;
 }
 
-
-
-.programs {
+.btn {
     margin-top: 2rem;
 }

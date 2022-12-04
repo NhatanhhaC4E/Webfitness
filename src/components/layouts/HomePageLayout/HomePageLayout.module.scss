@@ -1,0 +1,47 @@
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+.background {
+    position: absolute;
+    background-color: var(--gray);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    grid-column: 1/4;
+}
+
+
+.blur {
+    position: absolute;
+    z-index: 1;
+    width: 20rem;
+    height: 28rem;
+    border-radius: 50%;
+    filter: blur(212px);
+    background-color: var(--green);
+    top: 15rem;
+    left: 10rem;
+}
+
+.content {
+    position: absolute;
+    padding-left: 50px;
+    z-index: 3;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.sidebar {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    grid-column: 4/5;
+    background-color: var(--green);
+    z-index: -1;
+}

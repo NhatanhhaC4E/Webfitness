@@ -7,6 +7,7 @@
     --gray: #61615e;
     --black: #000;
     --white: #fff;
+    --text: #333;
 }
 
 
@@ -24,7 +25,7 @@ body {
 }
 
 
-button,
+
 input,
 [tabindex] {
     outline: none;
@@ -42,6 +43,8 @@ img[src*="5ff15176379aaba68d10afdcb236"] {
     z-index: 5;
     right: -20vw;
     top: -5vh;
+    filter: drop-shadow(0 1.2rem 0.75rem #333);
+
 }
 
 img[src*="22d0/9d66213bfd99e2da1e2314"] {
@@ -60,4 +63,12 @@ img[src*="fd6d5b0c0a3d6cb8ab2448b8"] {
     right: -9vw;
     top: 11vh;
     filter: drop-shadow(0 1.2rem 0.75rem #333);
+}
+
+.stroke-text {
+    color: transparent;
+    font-family: 'roboto', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--white);
+
 }
